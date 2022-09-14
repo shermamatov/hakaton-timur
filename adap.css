@@ -18,13 +18,97 @@
     .listblock {
         display: none;
     }
+    .btn-1 {
+        display: none;
+    }
     .burger-menu {
         display: block;
+    }
+    .footimg {
+        width: 25%;
     }
 }
 
 @media all and (max-width:1040px) {
     .logoblock {
         width: 120px;
+    }
+}
+
+@media all and (max-width:600px){
+
+    .the {
+        width: 600px;
+        animation: none;
+    }
+    .c1 {
+        display: none;
+        animation: none;
+    }
+    .c2 {
+        display: none;
+        animation: none;
+    }
+    .c3 {
+        display: none;
+        animation: none;
+    }
+    .c4 {
+        display: none;
+        animation: none;
+    }
+    .c5 {
+        display: none;
+        animation: none;
+    }
+
+    .navbar {
+        /* animation: homer 8s linear 2s; */
+        justify-content: space-between;
+    }
+
+    .content {
+        height: 850px;
+    }
+    .bottom2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .right2 {
+        margin: auto;
+    }
+    .botsec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .second {
+        height: 900px;
+    }
+    .head {
+        margin-bottom: 400px;
+    }
+}
+
+@media all and (max-width:560px) {
+    .right2 > h1 {
+        font-size: 30px;
+    }
+    .second {
+        height: 1040px;
+    }
+    .content {
+        height: 1100px;
+    }
+}
+
+@media all and (max-width:400px ) {
+    .the {
+        width: 500px;
+    }
+    .mentorblock {
+        margin: auto;
+    }
+    .features {
+        height: 1700px;
     }
 }

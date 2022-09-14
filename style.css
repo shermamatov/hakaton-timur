@@ -28,6 +28,7 @@ nav {
 }
 
 .navbar {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -74,25 +75,15 @@ nav {
   color: #fff;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .homer {
   position: relative;
   opacity: 0;
   animation: homer 8s linear 6s;
   animation-fill-mode: forwards;
-}
-
-.burger-menu {
-  display: none;
-  width: 10%;
-  height: min-content;
-  background-color: #2c2c33;
-  position: absolute;
-  z-index: 1;
-  top: 1%;
-  right: 1%;
-  left: 1%;
-  border: 2px solid white;
-  border-radius: 10px;
 }
 
 /* navbar end */
@@ -150,6 +141,13 @@ nav {
   animation: c5 7s linear 0s;
   animation-fill-mode: forwards;
   /* display: none; */
+}
+.sorry {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 20%;
+  display: none;
 }
 /* MainContent end */
 
@@ -272,7 +270,7 @@ span {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-  width: 3%;
+  width: 15%;
 }
 
 /* animation start  */
