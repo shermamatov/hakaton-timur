@@ -1,0 +1,30 @@
+@media all and (max-width:800px) {
+    .right2 {
+        width: 50%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .right2 > h1 {
+        font-size: 40px;
+    }
+    .a > a {
+        font-size: 16px;
+    }
+    
+}
+
+@media all and (max-width:850px) {
+    .listblock {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media all and (max-width:1040px) {
+    .logoblock {
+        width: 120px;
+    }
+}
